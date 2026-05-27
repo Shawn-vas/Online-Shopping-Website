@@ -1,0 +1,100 @@
+.card {
+  padding: 32px;
+  background: var(--surface-card);
+  border: 1px solid var(--border-gold);
+  border-radius: 0px; /* Sharp corners */
+  width: 100%;
+}
+
+.title {
+  font-size: 0.85rem;
+  letter-spacing: 0.2em;
+  color: #fff;
+}
+
+.divider {
+  height: 1px;
+  background-color: rgba(201, 168, 76, 0.15);
+  margin: 20px 0;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.95rem;
+  color: rgba(245, 240, 232, 0.7);
+  margin-bottom: 16px;
+}
+
+.discountRow {
+  color: var(--primary);
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.breakdownContainer {
+  background: rgba(201, 168, 76, 0.03);
+  border-left: 1px solid var(--primary);
+  padding: 8px 16px;
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.breakdownItem {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  color: rgba(245, 240, 232, 0.5);
+}
+
+.code {
+  font-family: var(--font-body);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+}
+
+.savings {
+  color: var(--primary);
+}
+
+.shippingVal {
+  color: var(--secondary);
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.totalRow {
+  color: #fff;
+  font-size: 1.15rem;
+  margin-bottom: 24px;
+}
+
+.totalPrice {
+  font-family: var(--font-body);
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--secondary);
+}
+
+.checkoutBtn {
+  width: 100%;
+  padding: 14px 0;
+  font-size: 0.8rem;
+}
+
+.checkoutBtn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.notice {
+  font-size: 0.75rem;
+  color: rgba(245, 240, 232, 0.35);
+  line-height: 1.5;
+  text-align: center;
+  margin-top: 16px;
+}

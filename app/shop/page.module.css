@@ -1,0 +1,166 @@
+.shopContainer {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 48px;
+  width: 100%;
+}
+
+@media (max-width: 900px) {
+  .shopContainer {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+}
+
+/* Sidebar Styles */
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.widget {
+  border-bottom: 1px solid rgba(201, 168, 76, 0.15);
+  padding-bottom: 32px;
+}
+
+.widget:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.widgetTitle {
+  font-size: 0.75rem;
+  letter-spacing: 0.15em;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.filterList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.filterBtn {
+  background: transparent;
+  border: none;
+  color: rgba(245, 240, 232, 0.6);
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  text-align: left;
+  cursor: pointer;
+  padding: 4px 0;
+  transition: var(--transition-smooth);
+  width: 100%;
+}
+
+.filterBtn:hover {
+  color: var(--primary);
+  padding-left: 6px;
+}
+
+.filterBtnActive {
+  color: var(--primary);
+  font-weight: 600;
+  padding-left: 6px;
+  border-left: 1px solid var(--primary);
+}
+
+/* Price range inputs */
+.priceInputs {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.priceInputWrapper {
+  display: flex;
+  align-items: center;
+  background: rgba(26, 26, 26, 0.4);
+  border: 1px solid var(--border-gold);
+  padding: 0 10px;
+  height: 36px;
+  flex-grow: 1;
+  width: 90px;
+}
+
+.priceInput {
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  width: 100%;
+  outline: none;
+  text-align: right;
+}
+
+/* Remove spin buttons from number input */
+.priceInput::-webkit-outer-spin-button,
+.priceInput::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.currencySymbol {
+  color: var(--primary);
+  font-size: 0.8rem;
+  margin-right: 4px;
+}
+
+.priceSeparator {
+  font-size: 0.85rem;
+  color: rgba(245, 240, 232, 0.4);
+}
+
+.pricePresets {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+}
+
+.presetBtn {
+  background: rgba(26, 26, 26, 0.3);
+  border: 1px solid var(--border-gold);
+  color: rgba(245, 240, 232, 0.6);
+  font-size: 0.75rem;
+  padding: 8px 10px;
+  cursor: pointer;
+  transition: var(--transition-smooth);
+  text-align: center;
+  font-family: var(--font-body);
+}
+
+.presetBtn:hover {
+  border-color: var(--primary);
+  color: var(--primary);
+  background: rgba(201, 168, 76, 0.05);
+}
+
+/* Catalog Grid Area */
+.catalog {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.catalogHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  border-bottom: 1px solid rgba(201, 168, 76, 0.15);
+  padding-bottom: 20px;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.itemCount {
+  font-size: 0.85rem;
+  color: rgba(245, 240, 232, 0.4);
+  margin-top: 4px;
+}

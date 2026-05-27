@@ -1,0 +1,139 @@
+.itemRow {
+  display: flex;
+  align-items: center;
+  padding: 24px 0;
+  border-bottom: 1px solid rgba(201, 168, 76, 0.15);
+  gap: 24px;
+}
+
+.itemRow:last-child {
+  border-bottom: none;
+}
+
+.imageContainer {
+  width: 80px;
+  height: 100px;
+  overflow: hidden;
+  background-color: #121212;
+  border: 1px solid var(--border-gold);
+  flex-shrink: 0;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  min-width: 150px;
+}
+
+.category {
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: rgba(245, 240, 232, 0.4);
+  margin-bottom: 4px;
+}
+
+.name {
+  font-family: var(--font-subheading);
+  font-size: 1.1rem;
+  color: var(--foreground);
+  text-decoration: none;
+  margin-bottom: 6px;
+  transition: var(--transition-smooth);
+}
+
+.name:hover {
+  color: var(--primary);
+}
+
+.singlePrice {
+  font-size: 0.85rem;
+  color: rgba(245, 240, 232, 0.5);
+}
+
+.quantityControls {
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--border-gold);
+  background: rgba(26, 26, 26, 0.4);
+}
+
+.qtyBtn {
+  background: transparent;
+  border: none;
+  color: var(--foreground);
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: var(--transition-smooth);
+}
+
+.qtyBtn:hover {
+  background: rgba(201, 168, 76, 0.1);
+  color: var(--primary);
+}
+
+.qtyDisplay {
+  font-size: 0.9rem;
+  font-weight: 600;
+  width: 36px;
+  text-align: center;
+}
+
+.priceSection {
+  text-align: right;
+  min-width: 100px;
+}
+
+.totalPrice {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.removeBtn {
+  background: transparent;
+  border: none;
+  color: rgba(245, 240, 232, 0.4);
+  cursor: pointer;
+  transition: var(--transition-smooth);
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.removeBtn:hover {
+  color: #ff6b6b;
+}
+
+@media (max-width: 600px) {
+  .itemRow {
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+
+  .details {
+    width: calc(100% - 110px);
+    flex-grow: 0;
+  }
+
+  .quantityControls {
+    margin-left: 104px;
+  }
+
+  .priceSection {
+    margin-left: auto;
+  }
+}

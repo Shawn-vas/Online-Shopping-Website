@@ -1,0 +1,30 @@
+.searchContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  width: 100%;
+}
+
+.header {
+  text-align: center;
+  max-width: 680px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.resultsSection {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.resultsMeta {
+  border-bottom: 1px solid rgba(201, 168, 76, 0.15);
+  padding-bottom: 16px;
+}
+
+.metaText {
+  font-size: 0.9rem;
+  color: rgba(245, 240, 232, 0.5);
+  font-family: var(--font-body);
+}

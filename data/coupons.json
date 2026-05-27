@@ -1,0 +1,50 @@
+[
+  {
+    "code": "LUXE10",
+    "type": "percentage",
+    "value": 10,
+    "minPurchase": 5000,
+    "maxDiscount": 5000,
+    "category": "all"
+  },
+  {
+    "code": "GOLD25",
+    "type": "percentage",
+    "value": 25,
+    "minPurchase": 50000,
+    "maxDiscount": 15000,
+    "category": "Timepieces"
+  },
+  {
+    "code": "APPAREL20",
+    "type": "percentage",
+    "value": 20,
+    "minPurchase": 15000,
+    "maxDiscount": 8000,
+    "category": "Apparel"
+  },
+  {
+    "code": "CASA15",
+    "type": "percentage",
+    "value": 15,
+    "minPurchase": 10000,
+    "maxDiscount": 5000,
+    "category": "Home & Living"
+  },
+  {
+    "code": "SCENT5000",
+    "type": "flat",
+    "value": 5000,
+    "minPurchase": 20000,
+    "maxDiscount": 5000,
+    "category": "Fragrances"
+  },
+  {
+    "code": "WELCOME500",
+    "type": "flat",
+    "value": 500,
+    "minPurchase": 3000,
+    "maxDiscount": 500,
+    "category": "all"
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "purchasedProductIds": ["p1", "p2", "p16"],
+  "preferredCategories": ["Apparel", "Fragrances"],
+  "preferredPriceMin": 10000,
+  "preferredPriceMax": 30000,
+  "history": [
+    {
+      "productId": "p1",
+      "timestamp": "2026-04-15T12:00:00Z",
+      "category": "Apparel",
+      "tags": ["coat", "winter", "cashmere", "apparel", "outerwear"],
+      "price": 45000
+    },
+    {
+      "productId": "p2",
+      "timestamp": "2026-05-01T14:30:00Z",
+      "category": "Apparel",
+      "tags": ["silk", "blouse", "shirt", "apparel", "classic"],
+      "price": 12500
+    },
+    {
+      "productId": "p16",
+      "timestamp": "2026-05-10T10:15:00Z",
+      "category": "Fragrances",
+      "tags": ["parfum", "cologne", "oud", "scent", "luxury"],
+      "price": 16500
+    }
+  ]
+}

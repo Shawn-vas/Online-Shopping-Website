@@ -1,0 +1,165 @@
+.wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.searchForm {
+  display: flex;
+  gap: 12px;
+  width: 100%;
+}
+
+.inputContainer {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  background: rgba(26, 26, 26, 0.6);
+  border: 1px solid var(--border-gold);
+  padding: 0 16px;
+  position: relative;
+  transition: var(--transition-smooth);
+}
+
+.inputContainer:focus-within {
+  border-color: var(--primary);
+  background: rgba(26, 26, 26, 0.9);
+  box-shadow: var(--rose-gold-glow);
+}
+
+.searchIcon {
+  color: rgba(245, 240, 232, 0.5);
+  margin-right: 12px;
+}
+
+.searchInput {
+  background: transparent;
+  border: none;
+  color: var(--foreground);
+  font-size: 1rem;
+  width: 100%;
+  padding: 14px 0;
+  outline: none;
+  font-family: var(--font-body);
+}
+
+.searchInput::placeholder {
+  color: rgba(245, 240, 232, 0.3);
+}
+
+.clearButton {
+  background: transparent;
+  border: none;
+  color: rgba(245, 240, 232, 0.4);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: var(--transition-smooth);
+  padding: 4px;
+}
+
+.clearButton:hover {
+  color: #fff;
+}
+
+.submitBtn {
+  background: var(--primary);
+  color: var(--background);
+  border: none;
+  font-family: var(--font-body);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-size: 0.8rem;
+  padding: 0 32px;
+  cursor: pointer;
+  transition: var(--transition-smooth);
+}
+
+.submitBtn:hover {
+  background: var(--secondary);
+  box-shadow: 0 0 15px rgba(201, 168, 76, 0.3);
+}
+
+/* Suggestions Dropdown */
+.dropdown {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
+  width: 100%;
+  background: #141414;
+  border: 1px solid var(--border-gold);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  z-index: 50;
+  border-radius: 0px;
+  overflow: hidden;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+.dropdownHeader {
+  padding: 12px 20px;
+  border-bottom: 1px solid rgba(201, 168, 76, 0.1);
+  background: rgba(10, 10, 10, 0.5);
+}
+
+.suggestionsList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  max-height: 380px;
+  overflow-y: auto;
+}
+
+.suggestionItem {
+  display: flex;
+  align-items: center;
+  padding: 12px 20px;
+  cursor: pointer;
+  transition: var(--transition-smooth);
+  border-bottom: 1px solid rgba(201, 168, 76, 0.05);
+}
+
+.suggestionItem:last-child {
+  border-bottom: none;
+}
+
+.suggestionItem:hover {
+  background: rgba(201, 168, 76, 0.05);
+}
+
+.suggestionImg {
+  width: 40px;
+  height: 50px;
+  object-fit: cover;
+  margin-right: 16px;
+  border: 1px solid rgba(201, 168, 76, 0.1);
+}
+
+.suggestionInfo {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.suggestionName {
+  font-size: 0.95rem;
+  color: var(--foreground);
+  font-weight: 500;
+  margin-bottom: 2px;
+}
+
+.suggestionCat {
+  font-size: 0.75rem;
+  color: rgba(245, 240, 232, 0.4);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.suggestionPrice {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--secondary);
+}

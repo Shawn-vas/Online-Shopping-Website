@@ -1,0 +1,170 @@
+.wishlistContainer {
+  width: 100%;
+}
+
+.header {
+  border-bottom: 1px solid rgba(201, 168, 76, 0.15);
+  margin-bottom: 40px;
+}
+
+.tabs {
+  display: flex;
+  gap: 32px;
+}
+
+.tabBtn {
+  background: transparent;
+  border: none;
+  color: rgba(245, 240, 232, 0.5);
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 12px 0;
+  cursor: pointer;
+  position: relative;
+  transition: var(--transition-smooth);
+}
+
+.tabBtn::after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--primary);
+  transition: var(--transition-smooth);
+}
+
+.tabBtn:hover {
+  color: #fff;
+}
+
+.tabBtnActive {
+  color: var(--primary);
+}
+
+.tabBtnActive::after {
+  width: 100%;
+}
+
+/* Budget Layout Styles */
+.budgetLayout {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: 48px;
+  align-items: start;
+}
+
+@media (max-width: 900px) {
+  .budgetLayout {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+}
+
+.sliderPanel {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.infoAlert {
+  display: flex;
+  gap: 12px;
+  background: rgba(201, 168, 76, 0.03);
+  border: 1px solid var(--border-gold);
+  padding: 16px;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: rgba(245, 240, 232, 0.6);
+}
+
+.infoIcon {
+  color: var(--primary);
+  flex-shrink: 0;
+}
+
+.infoText {
+  margin: 0;
+}
+
+/* Stats Panel */
+.statsPanel {
+  background: var(--surface-card);
+  border: 1px solid var(--border-gold);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.statsHeader {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--primary);
+  margin-bottom: 4px;
+}
+
+.sparkleIcon {
+  stroke-width: 2.5;
+}
+
+.statRow {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.85rem;
+  color: rgba(245, 240, 232, 0.6);
+}
+
+.statVal {
+  font-weight: 600;
+  color: #fff;
+}
+
+.progressBarBg {
+  width: 100%;
+  height: 6px;
+  background: rgba(245, 240, 232, 0.1);
+  border-radius: 9999px;
+  overflow: hidden;
+  margin-bottom: 8px;
+}
+
+.progressBarFill {
+  height: 100%;
+  background: var(--primary);
+  border-radius: 9999px;
+  transition: width 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.addAllBtn {
+  width: 100%;
+  padding: 12px 0;
+  font-size: 0.75rem;
+}
+
+.addAllBtn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Results Grid Columns */
+.resultsGrid {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.resultsTitle {
+  font-size: 0.8rem;
+  color: #fff;
+  letter-spacing: 0.1em;
+}
+
+.resultsDesc {
+  font-size: 0.85rem;
+  color: rgba(245, 240, 232, 0.4);
+  margin-bottom: 24px;
+}
