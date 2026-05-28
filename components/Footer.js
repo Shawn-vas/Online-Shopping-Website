@@ -23,11 +23,12 @@ export default function Footer() {
           <div className={styles.linksCol}>
             <h4 className={`${styles.heading} text-label-caps`}>Shop</h4>
             <ul className={styles.list}>
-              <li><Link href="/shop?category=Apparel">Apparel</Link></li>
-              <li><Link href="/shop?category=Leather Goods">Leather Goods</Link></li>
-              <li><Link href="/shop?category=Timepieces">Timepieces</Link></li>
-              <li><Link href="/shop?category=Fragrances">Fragrances</Link></li>
-              <li><Link href="/shop?category=Home %26 Living">Home & Living</Link></li>
+              <li><Link href="/shop?category=Watches">Watches</Link></li>
+              <li><Link href="/shop?category=Shoes">Shoes</Link></li>
+              <li><Link href="/shop?category=Perfumes">Perfumes</Link></li>
+              <li><Link href="/shop?category=Jackets">Jackets</Link></li>
+              <li><Link href="/shop?category=Wallets">Wallets</Link></li>
+              <li><Link href="/shop?category=Handbags">Handbags</Link></li>
             </ul>
           </div>
 

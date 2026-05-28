@@ -24,6 +24,7 @@ export default function SortDropdown({ value, onChange }) {
           <option value="price-asc">Price (Low - High)</option>
           <option value="price-desc">Price (High - Low)</option>
           <option value="rating-desc">Highest Rated</option>
+          <option value="category-asc">Category (A - Z)</option>
         </select>
       </div>
     </div>

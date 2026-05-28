@@ -1,7 +1,8 @@
 'use client';
 
-import React, { useState } from 'react';
+import React from 'react';
 import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 import { useCart } from '@/context/CartContext';
 import CartItem from '@/components/CartItem';
 import OrderSummary from '@/components/OrderSummary';
@@ -9,34 +10,14 @@ import { ShoppingBag, ArrowLeft, Ticket, Check } from 'lucide-react';
 import styles from './page.module.css';
 
 export default function Cart() {
+  const router = useRouter();
   const { cart, coupons, discountInfo, clearCart } = useCart();
   const { appliedCoupons } = discountInfo;
-  const [checkoutComplete, setCheckoutComplete] = useState(false);
 
   const handleCheckout = () => {
-    // Simulate checkout
-    clearCart();
-    setCheckoutComplete(true);
+    router.push('/checkout');
   };
 
-  if (checkoutComplete) {
-    return (
-      <div className={`${styles.successContainer} container section-padding`}>
-        <div className={styles.successIconWrapper}>
-          <Check size={48} className={styles.successIcon} />
-        </div>
-        <h1 className="text-display-hero" style={{ fontSize: '3rem', marginBottom: '24px' }}>
-          Order Confirmed
-        </h1>
-        <p className={styles.successText}>
-          Thank you for shopping with LUXE. Your order has been simulated successfully using our automatic Greedy Discount Optimization.
-        </p>
-        <Link href="/shop" className="btn-primary" style={{ marginTop: '20px' }}>
-          Continue Exploring
-        </Link>
-      </div>
-    );
-  }
 
   if (cart.length === 0) {
     return (

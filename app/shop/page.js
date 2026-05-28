@@ -16,7 +16,7 @@ export default function Shop({ searchParams }) {
   const { products } = useCart();
   const [category, setCategory] = useState(initialCategory);
   const [minPrice, setMinPrice] = useState(0);
-  const [maxPrice, setMaxPrice] = useState(100000);
+  const [maxPrice, setMaxPrice] = useState(2000000);
   const [sortOption, setSortOption] = useState({ key: 'name', order: 'asc' });
   const [filteredProducts, setFilteredProducts] = useState([]);
 
@@ -54,7 +54,7 @@ export default function Shop({ searchParams }) {
     setFilteredProducts(finalSorted);
   }, [products, category, minPrice, maxPrice, sortOption]);
 
-  const categories = ['all', 'Apparel', 'Leather Goods', 'Timepieces', 'Fragrances', 'Home & Living'];
+  const categories = ['all', 'Watches', 'Shoes', 'Perfumes', 'Jackets', 'Wallets', 'Handbags'];
 
   return (
     <div className={`${styles.shopContainer} container section-padding`}>
@@ -96,18 +96,18 @@ export default function Shop({ searchParams }) {
               <span className={styles.currencySymbol}>₹</span>
               <input 
                 type="number" 
-                value={maxPrice === 100000 ? '' : maxPrice} 
+                value={maxPrice === 2000000 ? '' : maxPrice} 
                 placeholder="Max"
-                onChange={(e) => setMaxPrice(e.target.value === '' ? 100000 : Number(e.target.value))}
+                onChange={(e) => setMaxPrice(e.target.value === '' ? 2000000 : Number(e.target.value))}
                 className={styles.priceInput}
               />
             </div>
           </div>
           <div className={styles.pricePresets}>
-            <button onClick={() => { setMinPrice(0); setMaxPrice(10000); }} className={styles.presetBtn}>Under ₹10k</button>
-            <button onClick={() => { setMinPrice(10000); setMaxPrice(25000); }} className={styles.presetBtn}>₹10k - ₹25k</button>
-            <button onClick={() => { setMinPrice(25000); setMaxPrice(50000); }} className={styles.presetBtn}>₹25k - ₹50k</button>
-            <button onClick={() => { setMinPrice(50000); setMaxPrice(100000); }} className={styles.presetBtn}>₹50k+</button>
+            <button onClick={() => { setMinPrice(0); setMaxPrice(50000); }} className={styles.presetBtn}>Under ₹50k</button>
+            <button onClick={() => { setMinPrice(50000); setMaxPrice(150000); }} className={styles.presetBtn}>₹50k - ₹150k</button>
+            <button onClick={() => { setMinPrice(150000); setMaxPrice(500000); }} className={styles.presetBtn}>₹150k - ₹500k</button>
+            <button onClick={() => { setMinPrice(500000); setMaxPrice(2000000); }} className={styles.presetBtn}>₹500k+</button>
           </div>
         </div>
       </aside>

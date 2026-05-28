@@ -14,11 +14,12 @@ export default function Home() {
   const recommendations = getRecommendations(purchaseHistory, products, 4);
 
   const categories = [
-    { name: 'Apparel', image: 'https://images.unsplash.com/photo-1591047139829-d91aecb6caea?q=80&w=400&auto=format&fit=crop', desc: 'Sartorial luxury' },
-    { name: 'Leather Goods', image: 'https://images.unsplash.com/photo-1584917865442-de89df76afd3?q=80&w=400&auto=format&fit=crop', desc: 'Crafted accessories' },
-    { name: 'Timepieces', image: 'https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?q=80&w=400&auto=format&fit=crop', desc: 'Precision objects' },
-    { name: 'Fragrances', image: 'https://images.unsplash.com/photo-1541643600914-78b084683601?q=80&w=400&auto=format&fit=crop', desc: 'Sensory signatures' },
-    { name: 'Home & Living', image: 'https://images.unsplash.com/photo-1578500494198-246f612d3b3d?q=80&w=400&auto=format&fit=crop', desc: 'Architectural spaces' }
+    { name: 'Watches', image: 'https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?q=80&w=400&auto=format&fit=crop', desc: 'Precision objects' },
+    { name: 'Shoes', image: 'https://images.unsplash.com/photo-1549298916-b5c9e97092e7?q=80&w=400&auto=format&fit=crop', desc: 'Crafted footwear' },
+    { name: 'Perfumes', image: 'https://images.unsplash.com/photo-1541643600914-78b084683601?q=80&w=400&auto=format&fit=crop', desc: 'Sensory signatures' },
+    { name: 'Jackets', image: 'https://images.unsplash.com/photo-1591047139829-d91aecb6caea?q=80&w=400&auto=format&fit=crop', desc: 'Sartorial luxury' },
+    { name: 'Wallets', image: 'https://images.unsplash.com/photo-1627124718414-03c267b36f1c?q=80&w=400&auto=format&fit=crop', desc: 'Premium essentials' },
+    { name: 'Handbags', image: 'https://images.unsplash.com/photo-1584917865442-de89df76afd3?q=80&w=400&auto=format&fit=crop', desc: 'Structured elegance' }
   ];
 
   return (

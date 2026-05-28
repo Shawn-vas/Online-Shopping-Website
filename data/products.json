@@ -1,332 +1,741 @@
 [
   {
     "id": "p1",
-    "name": "Luxe Cashmere Trench Coat",
-    "price": 45000,
+    "name": "Chronograph Oyster Gold Watch",
+    "price": 850000,
     "rating": 4.9,
-    "category": "Apparel",
-    "image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?q=80&w=800&auto=format&fit=crop",
-    "description": "Indulge in the ultimate luxury with this double-breasted trench coat crafted from 100% pure Mongolian cashmere. Designed for an elegant drape and timeless style.",
-    "tags": ["coat", "winter", "cashmere", "apparel", "outerwear"],
-    "discount": 10
-  },
-  {
-    "id": "p2",
-    "name": "Silk Button-Down Blouse",
-    "price": 12500,
-    "rating": 4.7,
-    "category": "Apparel",
-    "image": "https://images.unsplash.com/photo-1548624149-f9b1859aa7d0?q=80&w=800&auto=format&fit=crop",
-    "description": "An essential wardrobe staple made of premium mulberry silk. Features a clean concealed placket and mother-of-pearl buttons.",
-    "tags": ["silk", "blouse", "shirt", "apparel", "classic"],
+    "category": "Watches",
+    "image": "https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?q=80&w=800&auto=format&fit=crop",
+    "description": "An exquisite automatic watch in 18k yellow gold finish, featuring a signature black dial, tachymeter bezel, and oysterlink bracelet.",
+    "tags": [
+      "watch",
+      "gold",
+      "chronograph",
+      "luxury",
+      "automatic"
+    ],
     "discount": 0
   },
   {
-    "id": "p3",
-    "name": "Tailored Wool Trousers",
-    "price": 18500,
-    "rating": 4.5,
-    "category": "Apparel",
-    "image": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?q=80&w=800&auto=format&fit=crop",
-    "description": "Expertly cut wool trousers with a sharp front crease and structured high-rise waist. Designed for modular pairing with silk shirts.",
-    "tags": ["pants", "trouser", "wool", "apparel", "formal"],
-    "discount": 15
-  },
-  {
-    "id": "p4",
-    "name": "Structured Velvet Blazer",
-    "price": 28000,
-    "rating": 4.8,
-    "category": "Apparel",
-    "image": "https://images.unsplash.com/photo-1591369822096-ffd140ec948f?q=80&w=800&auto=format&fit=crop",
-    "description": "Double-breasted velvet blazer featuring structured shoulders, satin peak lapels, and custom gold-finished hardware.",
-    "tags": ["blazer", "velvet", "jacket", "apparel", "evening"],
+    "id": "p2",
+    "name": "Minimalist Rose-Gold Timepiece",
+    "price": 240000,
+    "rating": 4.7,
+    "category": "Watches",
+    "image": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?q=80&w=800&auto=format&fit=crop",
+    "description": "Ultra-thin watch featuring a polished rose-gold case, clean eggshell dial, and an interchangeable Italian leather strap.",
+    "tags": [
+      "watch",
+      "rose-gold",
+      "minimalist",
+      "timepiece",
+      "leather"
+    ],
     "discount": 5
   },
   {
-    "id": "p5",
-    "name": "Minimalist Slip Dress",
-    "price": 15000,
+    "id": "p3",
+    "name": "Skeleton Automatic Mechanical Watch",
+    "price": 680000,
+    "rating": 4.8,
+    "category": "Watches",
+    "image": "https://plus.unsplash.com/premium_photo-1776594535145-418a131e4713?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Admire the mechanical artistry of this self-winding skeleton watch. Features a sapphire crystal glass and gunmetal bezel.",
+    "tags": [
+      "watch",
+      "skeleton",
+      "automatic",
+      "mechanical",
+      "luxury"
+    ],
+    "discount": 10
+  },
+  {
+    "id": "p4",
+    "name": "Classic Steel Dress Watch",
+    "price": 310000,
     "rating": 4.6,
-    "category": "Apparel",
-    "image": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?q=80&w=800&auto=format&fit=crop",
-    "description": "An elegant bias-cut dress crafted from heavy-weight satin, featuring a cowl neck and delicate cross-back straps.",
-    "tags": ["dress", "satin", "slip", "apparel", "minimalist"],
+    "category": "Watches",
+    "image": "https://images.unsplash.com/photo-1547996160-81dfa63595aa?q=80&w=800&auto=format&fit=crop",
+    "description": "A refined watch in brushed surgical-grade stainless steel. Powered by a highly accurate Swiss quartz movement.",
+    "tags": [
+      "watch",
+      "steel",
+      "classic",
+      "quartz"
+    ],
+    "discount": 0
+  },
+  {
+    "id": "p5",
+    "name": "Noir Leather Strap Watch",
+    "price": 195000,
+    "rating": 4.5,
+    "category": "Watches",
+    "image": "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?q=80&w=800&auto=format&fit=crop",
+    "description": "An all-black watch with matte casing, black sunray dial, and full-grain black leather strap. Peak stealth luxury.",
+    "tags": [
+      "watch",
+      "noir",
+      "black",
+      "leather"
+    ],
     "discount": 0
   },
   {
     "id": "p6",
-    "name": "Full-Grain Leather Tote Bag",
-    "price": 32000,
-    "rating": 4.9,
-    "category": "Leather Goods",
-    "image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?q=80&w=800&auto=format&fit=crop",
-    "description": "A spacious everyday carryall in Italian full-grain pebbled leather. Features an unlined interior and a detachable zippered pouch.",
-    "tags": ["bag", "tote", "leather", "accessory", "black"],
-    "discount": 20
-  },
-  {
-    "id": "p7",
-    "name": "Classic Leather Chelsea Boots",
-    "price": 22000,
-    "rating": 4.8,
-    "category": "Leather Goods",
-    "image": "https://images.unsplash.com/photo-1520639888713-7851133b1ed0?q=80&w=800&auto=format&fit=crop",
-    "description": "Timeless leather Chelsea boots with elasticated side panels and a stacked leather heel. Handcrafted in Spain.",
-    "tags": ["boots", "chelsea", "shoes", "leather", "footwear"],
+    "name": "Platinum Tourbillon Masterpiece",
+    "price": 1250000,
+    "rating": 5.0,
+    "category": "Watches",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8MVs5NGA5MJ7lMqlVCNDGixvKSMCXfwixWw&s",
+    "description": "A grand complication tourbillon encased in solid platinum. Hand-assembled by master watchmakers for unparalleled precision.",
+    "tags": [
+      "watch",
+      "tourbillon",
+      "platinum",
+      "masterpiece"
+    ],
     "discount": 0
   },
   {
+    "id": "p7",
+    "name": "Sapphire Crystal Diver's Watch",
+    "price": 450000,
+    "rating": 4.8,
+    "category": "Watches",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE4vgjMvL3AUn36Wm80Dkfj5hyj-PzKXsZyQ&s",
+    "description": "Professional diving watch waterproof to 300m, featuring a luminous dial, rotating ceramic bezel, and brushed steel casing.",
+    "tags": [
+      "watch",
+      "diver",
+      "sapphire",
+      "ceramic"
+    ],
+    "discount": 15
+  },
+  {
     "id": "p8",
-    "name": "Saddle Crossbody Bag",
-    "price": 25000,
+    "name": "Vintage Gold Chrono",
+    "price": 550000,
     "rating": 4.7,
-    "category": "Leather Goods",
-    "image": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?q=80&w=800&auto=format&fit=crop",
-    "description": "Architectural saddle-shaped bag in smooth boxcalf leather, featuring custom brass clasp closures and an adjustable strap.",
-    "tags": ["bag", "crossbody", "saddle", "leather", "accessory"],
-    "discount": 10
+    "category": "Watches",
+    "image": "https://images.unsplash.com/photo-1604242692760-2f7b0c26856d?q=80&w=800&auto=format&fit=crop",
+    "description": "A nod to mid-century design, this vintage-inspired gold chronograph features a domed dial and a distressed calfskin strap.",
+    "tags": [
+      "watch",
+      "vintage",
+      "gold",
+      "chronograph"
+    ],
+    "discount": 0
   },
   {
     "id": "p9",
-    "name": "Bifold Calfskin Wallet",
-    "price": 8500,
-    "rating": 4.6,
-    "category": "Leather Goods",
-    "image": "https://images.unsplash.com/photo-1627124718414-03c267b36f1c?q=80&w=800&auto=format&fit=crop",
-    "description": "Slim bifold wallet made from premium french calfskin. Features six card slots and a dedicated bill compartment.",
-    "tags": ["wallet", "leather", "accessory", "calfskin", "essential"],
+    "name": "Classic Leather Chelsea Boots",
+    "price": 45000,
+    "rating": 4.8,
+    "category": "Shoes",
+    "image": "https://images.unsplash.com/photo-1520639888713-7851133b1ed0?q=80&w=800&auto=format&fit=crop",
+    "description": "Timeless leather Chelsea boots with elasticated side panels and a stacked leather heel. Handcrafted in Spain.",
+    "tags": [
+      "shoes",
+      "boots",
+      "chelsea",
+      "leather"
+    ],
     "discount": 0
   },
   {
     "id": "p10",
-    "name": "Soft Suede Weekender Bag",
-    "price": 38000,
+    "name": "Italian Calfskin Oxfords",
+    "price": 65000,
     "rating": 4.9,
-    "category": "Leather Goods",
-    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?q=80&w=800&auto=format&fit=crop",
-    "description": "Generously sized travel duffel in ultra-soft split suede leather. Includes reinforced base studs and a leather shoulder pad.",
-    "tags": ["bag", "weekender", "travel", "suede", "duffel"],
-    "discount": 12
-  },
-  {
-    "id": "p11",
-    "name": "Chronograph Oyster Gold Watch",
-    "price": 85000,
-    "rating": 4.95,
-    "category": "Timepieces",
-    "image": "https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?q=80&w=800&auto=format&fit=crop",
-    "description": "An exquisite automatic watch in 18k yellow gold finish, featuring a signature black dial, tachymeter bezel, and oysterlink bracelet.",
-    "tags": ["watch", "gold", "chronograph", "timepiece", "automatic"],
+    "category": "Shoes",
+    "image": "https://plus.unsplash.com/premium_photo-1670983858132-c2f3c4dbf08c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGxlYXRoZXIlMjBzaG9lfGVufDB8fDB8fHww",
+    "description": "Elegant formal oxfords meticulously crafted from polished Italian calfskin. Features a Goodyear welt construction.",
+    "tags": [
+      "shoes",
+      "oxfords",
+      "leather",
+      "formal"
+    ],
     "discount": 5
   },
   {
+    "id": "p11",
+    "name": "Suede Loafers with Tassel",
+    "price": 52000,
+    "rating": 4.6,
+    "category": "Shoes",
+    "image": "https://images.unsplash.com/photo-1560769629-975ec94e6a86?q=80&w=800&auto=format&fit=crop",
+    "description": "Sophisticated slip-on loafers in premium sand suede, adorned with hand-stitched tassels for a relaxed yet refined look.",
+    "tags": [
+      "shoes",
+      "loafers",
+      "suede",
+      "tassel"
+    ],
+    "discount": 10
+  },
+  {
     "id": "p12",
-    "name": "Minimalist Rose-Gold Watch",
-    "price": 24000,
+    "name": "Signature High-Top Leather Sneakers",
+    "price": 42000,
     "rating": 4.7,
-    "category": "Timepieces",
-    "image": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?q=80&w=800&auto=format&fit=crop",
-    "description": "Ultra-thin watch featuring a polished rose-gold case, clean eggshell dial, and an interchangeable Italian leather strap.",
-    "tags": ["watch", "rose-gold", "minimalist", "timepiece", "leather"],
-    "discount": 15
+    "category": "Shoes",
+    "image": "https://images.unsplash.com/photo-1676838179247-6e60dba67d5c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8U2lnbmF0dXJlJTIwSGlnaC1Ub3AlMjBMZWF0aGVyJTIwU25lYWtlcnN8ZW58MHx8MHx8fDA%3D",
+    "description": "Elevated streetwear. These high-top sneakers are crafted from buttery soft Napa leather with gold-tone hardware.",
+    "tags": [
+      "shoes",
+      "sneakers",
+      "leather",
+      "high-top"
+    ],
+    "discount": 0
   },
   {
     "id": "p13",
-    "name": "Skeleton Automatic Watch",
-    "price": 68000,
-    "rating": 4.85,
-    "category": "Timepieces",
-    "image": "https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?q=80&w=800&auto=format&fit=crop",
-    "description": "Admire the mechanical artistry of this self-winding skeleton watch. Features a sapphire crystal glass and gunmetal bezel.",
-    "tags": ["watch", "skeleton", "automatic", "mechanical", "timepiece"],
+    "name": "Crocodile Embossed Derby Shoes",
+    "price": 85000,
+    "rating": 4.8,
+    "category": "Shoes",
+    "image": "https://images.unsplash.com/photo-1721840075710-7be42be7d537?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Q3JvY29kaWxlJTIwRW1ib3NzZWQlMjBEZXJieSUyMFNob2VzfGVufDB8fDB8fHww",
+    "description": "Bold derby shoes featuring a stunning crocodile-embossed leather exterior, perfect for making a statement at any event.",
+    "tags": [
+      "shoes",
+      "derby",
+      "embossed",
+      "luxury"
+    ],
     "discount": 0
   },
   {
     "id": "p14",
-    "name": "Classic Steel Dress Watch",
-    "price": 31000,
-    "rating": 4.6,
-    "category": "Timepieces",
-    "image": "https://images.unsplash.com/photo-1547996160-81dfa63595aa?q=80&w=800&auto=format&fit=crop",
-    "description": "A refined watch in brushed surgical-grade stainless steel. Powered by a highly accurate Swiss quartz movement.",
-    "tags": ["watch", "steel", "classic", "timepiece", "quartz"],
-    "discount": 10
+    "name": "Monk Strap Dress Shoes",
+    "price": 72000,
+    "rating": 4.9,
+    "category": "Shoes",
+    "image": "https://images.unsplash.com/photo-1711356240240-2516c04b3585?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fE1vbmslMjBTdHJhcCUyMERyZXNzJTIwU2hvZXN8ZW58MHx8MHx8fDA%3D",
+    "description": "Double monk strap shoes featuring hand-burnished leather and silver-tone buckles. The epitome of modern sartorial elegance.",
+    "tags": [
+      "shoes",
+      "monk strap",
+      "leather",
+      "formal"
+    ],
+    "discount": 15
   },
   {
     "id": "p15",
-    "name": "Noir Leather Strap Watch",
-    "price": 19500,
+    "name": "Black Night Air Force 1",
+    "price": 55000,
     "rating": 4.5,
-    "category": "Timepieces",
-    "image": "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?q=80&w=800&auto=format&fit=crop",
-    "description": "An all-black watch with matte casing, black sunray dial, and full-grain black leather strap. Peak stealth luxury.",
-    "tags": ["watch", "noir", "black", "leather", "timepiece"],
+    "category": "Shoes",
+    "image": "https://images.unsplash.com/photo-1629097499121-290fd9a95dee?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8U2lnbmF0dXJlJTIwSGlnaC1Ub3AlMjBMZWF0aGVyJTIwU25lYWtlcnN8ZW58MHx8MHx8fDA%3D",
+    "description": "Luxurious black velvet evening slippers with a quilted silk lining and a subtle embroidered crest on the vamp.",
+    "tags": [
+      "shoes",
+      "velvet",
+      "slippers",
+      "evening"
+    ],
     "discount": 0
   },
   {
     "id": "p16",
-    "name": "Oud Impérial Parfum",
-    "price": 16500,
-    "rating": 4.9,
-    "category": "Fragrances",
-    "image": "https://images.unsplash.com/photo-1541643600914-78b084683601?q=80&w=800&auto=format&fit=crop",
-    "description": "A rich, mysterious fragrance built around precious agarwood (oud), warm amber, dry spices, and a touch of wild rose.",
-    "tags": ["parfum", "cologne", "oud", "scent", "luxury"],
-    "discount": 5
+    "name": "Hand-Painted Leather Brogues",
+    "price": 95000,
+    "rating": 5.0,
+    "category": "Shoes",
+    "image": "https://images.unsplash.com/photo-1618614901500-30a5f058d187?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8SGFuZC1QYWludGVkJTIwTGVhdGhlciUyMEJyb2d1ZXN8ZW58MHx8MHx8fDA%3D",
+    "description": "A true work of art. These leather brogues are individually hand-painted to achieve a unique patina that ages beautifully.",
+    "tags": [
+      "shoes",
+      "brogues",
+      "leather",
+      "hand-painted"
+    ],
+    "discount": 0
   },
   {
     "id": "p17",
-    "name": "Santale Sauvage Eau de Cologne",
-    "price": 11000,
-    "rating": 4.8,
-    "category": "Fragrances",
-    "image": "https://images.unsplash.com/photo-1594035910387-fea47794261f?q=80&w=800&auto=format&fit=crop",
-    "description": "A clean, woody fragrance highlighting creamy Australian sandalwood, green cardamom, and fresh cedarwood accords.",
-    "tags": ["parfum", "sandalwood", "scent", "cologne", "woody"],
+    "name": "Oud Impérial Extrait de Parfum",
+    "price": 32000,
+    "rating": 4.9,
+    "category": "Perfumes",
+    "image": "https://images.unsplash.com/photo-1541643600914-78b084683601?q=80&w=800&auto=format&fit=crop",
+    "description": "A rich, mysterious fragrance built around precious agarwood (oud), warm amber, dry spices, and a touch of wild rose.",
+    "tags": [
+      "perfume",
+      "oud",
+      "parfum",
+      "luxury"
+    ],
     "discount": 0
   },
   {
     "id": "p18",
-    "name": "Amber Seduction Candle Set",
-    "price": 6500,
-    "rating": 4.75,
-    "category": "Fragrances",
-    "image": "https://images.unsplash.com/photo-1603006905003-be475563bc59?q=80&w=800&auto=format&fit=crop",
-    "description": "Two hand-poured soy wax candles in black ceramic vessels, scented with rich amber, vanilla bean, and toasted oak.",
-    "tags": ["candle", "home", "scent", "amber", "gift"],
-    "discount": 8
+    "name": "Santale Sauvage Eau de Cologne",
+    "price": 18000,
+    "rating": 4.8,
+    "category": "Perfumes",
+    "image": "https://images.unsplash.com/photo-1594035910387-fea47794261f?q=80&w=800&auto=format&fit=crop",
+    "description": "A clean, woody fragrance highlighting creamy Australian sandalwood, green cardamom, and fresh cedarwood accords.",
+    "tags": [
+      "perfume",
+      "sandalwood",
+      "cologne",
+      "woody"
+    ],
+    "discount": 5
   },
   {
     "id": "p19",
-    "name": "Verveine Citron Room Diffuser",
-    "price": 7500,
-    "rating": 4.6,
-    "category": "Fragrances",
-    "image": "https://images.unsplash.com/photo-1508746829417-e6f548d8d6ed?q=80&w=800&auto=format&fit=crop",
-    "description": "A luxury reed diffuser releasing uplifting top notes of French lemon verbena, layered over wild thyme and musk.",
-    "tags": ["diffuser", "home", "verbena", "scent", "fresh"],
+    "name": "Néroli Renaissance Scent",
+    "price": 24000,
+    "rating": 4.7,
+    "category": "Perfumes",
+    "image": "https://images.unsplash.com/photo-1523293182086-7651a899d37f?q=80&w=800&auto=format&fit=crop",
+    "description": "Capturing the essence of the Italian Riviera. Bitter orange flower blended with citrus oils, rosemary, and white amber.",
+    "tags": [
+      "perfume",
+      "neroli",
+      "citrus",
+      "fresh"
+    ],
     "discount": 0
   },
   {
     "id": "p20",
-    "name": "Néroli Renaissance Scent",
-    "price": 14000,
-    "rating": 4.8,
-    "category": "Fragrances",
-    "image": "https://images.unsplash.com/photo-1523293182086-7651a899d37f?q=80&w=800&auto=format&fit=crop",
-    "description": "Capturing the essence of the Italian Riviera. Bitter orange flower blended with citrus oils, rosemary, and white amber.",
-    "tags": ["parfum", "neroli", "scent", "citrus", "cologne"],
+    "name": "Velvet Rose & Damask Parfum",
+    "price": 28000,
+    "rating": 4.9,
+    "category": "Perfumes",
+    "image": "https://images.unsplash.com/photo-1707899997123-226a3f57aa32?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8VmVsdmV0JTIwUm9zZSUyMCUyNiUyMERhbWFzayUyMFBhcmZ1bXxlbnwwfHwwfHx8MA%3D%3D",
+    "description": "An opulent floral fragrance featuring rare Damask rose, enveloped in a dark, smoky velvet accord and spicy clove.",
+    "tags": [
+      "perfume",
+      "rose",
+      "floral",
+      "luxury"
+    ],
     "discount": 10
   },
   {
     "id": "p21",
-    "name": "Handmade Ribbed Ceramic Vase",
-    "price": 9500,
-    "rating": 4.85,
-    "category": "Home & Living",
-    "image": "https://images.unsplash.com/photo-1578500494198-246f612d3b3d?q=80&w=800&auto=format&fit=crop",
-    "description": "An architectural stoneware vase in a matte sand finish. Features a tactile ribbed texture. Perfect for dry botanical displays.",
-    "tags": ["vase", "ceramic", "decor", "home", "sculpture"],
+    "name": "Bergamot & Leather Elixir",
+    "price": 35000,
+    "rating": 4.8,
+    "category": "Perfumes",
+    "image": "https://images.unsplash.com/photo-1630344360804-acaab8f80b99?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fEJlcmdhbW90JTIwJTI2JTIwTGVhdGhlciUyMEVsaXhpcnxlbnwwfHwwfHx8MA%3D%3D",
+    "description": "A striking contrast of bright Italian bergamot and deep, animalic leather notes. Intoxicating and deeply masculine.",
+    "tags": [
+      "perfume",
+      "bergamot",
+      "leather",
+      "elixir"
+    ],
     "discount": 0
   },
   {
     "id": "p22",
-    "name": "Bouclé Bouclé Accent Pillow",
-    "price": 5500,
-    "rating": 4.7,
-    "category": "Home & Living",
-    "image": "https://images.unsplash.com/photo-1584100936595-c0654b55a2e2?q=80&w=800&auto=format&fit=crop",
-    "description": "Soft textured pillow woven from wool and alpaca bouclé fibers in natural cream. Includes a premium feather insert.",
-    "tags": ["pillow", "boucle", "decor", "home", "cushion"],
-    "discount": 5
+    "name": "Vanilla Bourbon Intense",
+    "price": 22000,
+    "rating": 4.6,
+    "category": "Perfumes",
+    "image": "https://images.unsplash.com/photo-1660853142045-a74bc7d4e07b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fFZhbmlsbGElMjBCb3VyYm9uJTIwSW50ZW5zZXxlbnwwfHwwfHx8MA%3D%3D",
+    "description": "A gourmand masterpiece with rich Madagascar vanilla, aged bourbon barrel notes, and a hint of smoked tobacco.",
+    "tags": [
+      "perfume",
+      "vanilla",
+      "bourbon",
+      "intense"
+    ],
+    "discount": 0
   },
   {
     "id": "p23",
-    "name": "Travertine Marble Tray",
-    "price": 12000,
-    "rating": 4.9,
-    "category": "Home & Living",
-    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=800&auto=format&fit=crop",
-    "description": "Sculpted from a single block of raw Italian travertine marble. Ideal as a centerpiece tray for vanity or entry table.",
-    "tags": ["tray", "marble", "travertine", "decor", "home"],
-    "discount": 0
-  },
-  {
-    "id": "p24",
-    "name": "Merino Wool Throw Blanket",
-    "price": 16000,
-    "rating": 4.8,
-    "category": "Home & Living",
-    "image": "https://images.unsplash.com/photo-1580301762395-21ce84d00bc6?q=80&w=800&auto=format&fit=crop",
-    "description": "Generously sized, waffle-woven throw blanket in 100% fine Merino wool. Extremely warm yet lightweight and breathable.",
-    "tags": ["blanket", "wool", "merino", "home", "cozy"],
+    "name": "Midnight Iris Eau de Parfum",
+    "price": 27000,
+    "rating": 4.7,
+    "category": "Perfumes",
+    "image": "https://images.unsplash.com/photo-1705936118918-870095881e61?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8TWlkbmlnaHQlMjBQZXJmdW1lfGVufDB8fDB8fHww",
+    "description": "A powdery, elegant scent showcasing the rare Iris pallida, intertwined with violet leaves and soft musk.",
+    "tags": [
+      "perfume",
+      "iris",
+      "floral",
+      "elegant"
+    ],
     "discount": 15
   },
   {
+    "id": "p24",
+    "name": "Ambre Royale Crystal Flacon",
+    "price": 45000,
+    "rating": 5.0,
+    "category": "Perfumes",
+    "image": "https://images.unsplash.com/photo-1594125311687-3b1b3eafa9f4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8QW1icmUlMjBQZXJmdW1lfGVufDB8fDB8fHww",
+    "description": "The ultimate luxury statement. Warm amber and frankincense housed in a handcrafted crystal flacon with gold detailing.",
+    "tags": [
+      "perfume",
+      "amber",
+      "crystal",
+      "royale"
+    ],
+    "discount": 0
+  },
+  {
     "id": "p25",
-    "name": "Brass Arch Table Lamp",
-    "price": 26000,
-    "rating": 4.75,
-    "category": "Home & Living",
-    "image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?q=80&w=800&auto=format&fit=crop",
-    "description": "A sculptural table lamp featuring an arched arm in brushed solid brass and a spherical sand-blasted glass shade.",
-    "tags": ["lamp", "brass", "lighting", "home", "design"],
-    "discount": 0
-  },
-  {
-    "id": "p26",
-    "name": "Alabaster Sculptural Bowl",
-    "price": 14500,
-    "rating": 4.65,
-    "category": "Home & Living",
-    "image": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?q=80&w=800&auto=format&fit=crop",
-    "description": "Hand-carved translucent alabaster bowl. The organic marble-like veins mean each piece is entirely unique.",
-    "tags": ["bowl", "alabaster", "decor", "home", "stone"],
-    "discount": 10
-  },
-  {
-    "id": "p27",
-    "name": "Suede Leather Slippers",
-    "price": 9800,
-    "rating": 4.7,
-    "category": "Leather Goods",
-    "image": "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?q=80&w=800&auto=format&fit=crop",
-    "description": "Premium indoor slippers in rich brown split suede, lined with exceptionally plush shearling wool for supreme comfort.",
-    "tags": ["slippers", "suede", "shoes", "leather", "lounge"],
-    "discount": 0
-  },
-  {
-    "id": "p28",
-    "name": "Linen Kimono Robe",
-    "price": 11500,
-    "rating": 4.8,
-    "category": "Apparel",
-    "image": "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?q=80&w=800&auto=format&fit=crop",
-    "description": "A relaxed, lightweight robe woven from 100% organic French flax linen. Softens beautifully with every wash.",
-    "tags": ["robe", "linen", "kimono", "apparel", "loungewear"],
+    "name": "Luxe Cashmere Trench Coat",
+    "price": 120000,
+    "rating": 4.9,
+    "category": "Jackets",
+    "image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?q=80&w=800&auto=format&fit=crop",
+    "description": "Indulge in the ultimate luxury with this double-breasted trench coat crafted from 100% pure Mongolian cashmere.",
+    "tags": [
+      "jacket",
+      "coat",
+      "cashmere",
+      "trench"
+    ],
     "discount": 5
   },
   {
-    "id": "p29",
-    "name": "Gilt Rim Crystal Tumblers (Set of 4)",
-    "price": 18000,
+    "id": "p26",
+    "name": "Structured Velvet Blazer",
+    "price": 85000,
+    "rating": 4.8,
+    "category": "Jackets",
+    "image": "https://plus.unsplash.com/premium_photo-1740017729370-42534bd82632?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8VmVsdmV0JTIwQmxhemVyfGVufDB8fDB8fHww",
+    "description": "Double-breasted velvet blazer featuring structured shoulders, satin peak lapels, and custom gold-finished hardware.",
+    "tags": [
+      "jacket",
+      "blazer",
+      "velvet",
+      "formal"
+    ],
+    "discount": 0
+  },
+  {
+    "id": "p27",
+    "name": "Classic Aviator Leather Jacket",
+    "price": 95000,
     "rating": 4.9,
-    "category": "Home & Living",
-    "image": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?q=80&w=800&auto=format&fit=crop",
-    "description": "Mouth-blown crystal whiskey tumblers with a hand-painted 24k gold rim. Classic weight and exceptional brilliance.",
-    "tags": ["glasses", "crystal", "gold", "home", "drinkware"],
+    "category": "Jackets",
+    "image": "https://images.unsplash.com/photo-1610903507277-799fb99955c1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fENsYXNzaWMlMjBBdmlhdG9yJTIwTGVhdGhlciUyMEphY2tldHxlbnwwfHwwfHx8MA%3D%3D",
+    "description": "A timeless aviator jacket constructed from thick shearling-lined leather, offering both warmth and rugged elegance.",
+    "tags": [
+      "jacket",
+      "leather",
+      "aviator",
+      "shearling"
+    ],
+    "discount": 10
+  },
+  {
+    "id": "p28",
+    "name": "Italian Silk Bomber Jacket",
+    "price": 65000,
+    "rating": 4.7,
+    "category": "Jackets",
+    "image": "https://images.unsplash.com/photo-1536977400-8c6f90c75df6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8SXRhbGlhbiUyMFNpbGslMjBCb21iZXIlMjBKYWNrZXR8ZW58MHx8MHx8fDA%3D",
+    "description": "A refined take on the bomber silhouette, made entirely from heavy Italian silk with intricate tonal embroidery.",
+    "tags": [
+      "jacket",
+      "bomber",
+      "silk",
+      "embroidery"
+    ],
+    "discount": 0
+  },
+  {
+    "id": "p29",
+    "name": "Tailored Wool Overcoat",
+    "price": 140000,
+    "rating": 4.8,
+    "category": "Jackets",
+    "image": "https://images.unsplash.com/photo-1487222477894-8943e31ef7b2?q=80&w=800&auto=format&fit=crop",
+    "description": "A sharp, single-breasted overcoat tailored from premium virgin wool. The perfect top layer for any formal ensemble.",
+    "tags": [
+      "jacket",
+      "overcoat",
+      "wool",
+      "tailored"
+    ],
     "discount": 0
   },
   {
     "id": "p30",
-    "name": "Gold Thread Linen Tablecloth",
-    "price": 13500,
+    "name": "Quilted Down Puffer Jacket",
+    "price": 110000,
     "rating": 4.6,
-    "category": "Home & Living",
-    "image": "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop",
-    "description": "Heavyweight linen tablecloth in oatmeal, woven with subtle gold metallic threads. Elevates any dinner setting.",
-    "tags": ["linen", "tablecloth", "decor", "home", "dinnerware"],
+    "category": "Jackets",
+    "image": "https://images.unsplash.com/photo-1559551409-dadc959f76b8?q=80&w=800&auto=format&fit=crop",
+    "description": "High-performance luxury. Filled with responsibly sourced goose down, featuring a water-repellent shell and technical zips.",
+    "tags": [
+      "jacket",
+      "puffer",
+      "down",
+      "winter"
+    ],
     "discount": 15
+  },
+  {
+    "id": "p31",
+    "name": "Suede Racer Jacket",
+    "price": 78000,
+    "rating": 4.7,
+    "category": "Jackets",
+    "image": "https://images.unsplash.com/photo-1614208242226-6a145842a8c8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8U3VlZGUlMjBSYWNlciUyMEphY2tldHxlbnwwfHwwfHx8MA%3D%3D",
+    "description": "A minimalist racer jacket in incredibly soft goat suede. Features a stand collar and streamlined zip closures.",
+    "tags": [
+      "jacket",
+      "suede",
+      "racer",
+      "minimalist"
+    ],
+    "discount": 5
+  },
+  {
+    "id": "p32",
+    "name": "Bespoke Tweed Sports Coat",
+    "price": 105000,
+    "rating": 4.9,
+    "category": "Jackets",
+    "image": "https://images.unsplash.com/photo-1669575903350-9a349b411810?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8QmVzcG9rZSUyMFR3ZWVkJTIwU3BvcnRzJTIwQ29hdHxlbnwwfHwwfHx8MA%3D%3D",
+    "description": "Woven in Scotland, this heritage tweed sports coat boasts intricate patterns, patch pockets, and unlined construction.",
+    "tags": [
+      "jacket",
+      "tweed",
+      "sports coat",
+      "bespoke"
+    ],
+    "discount": 0
+  },
+  {
+    "id": "p33",
+    "name": "Bifold Calfskin Wallet",
+    "price": 25000,
+    "rating": 4.8,
+    "category": "Wallets",
+    "image": "https://images.unsplash.com/photo-1627123424574-724758594e93?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Qmlmb2xkJTIwQ2FsZnNraW4lMjBXYWxsZXR8ZW58MHx8MHx8fDA%3D",
+    "description": "Slim bifold wallet made from premium french calfskin. Features six card slots and a dedicated bill compartment.",
+    "tags": [
+      "wallet",
+      "calfskin",
+      "leather",
+      "bifold"
+    ],
+    "discount": 0
+  },
+  {
+    "id": "p34",
+    "name": "Alligator Zip-Around Wallet",
+    "price": 68000,
+    "rating": 4.9,
+    "category": "Wallets",
+    "image": "https://plus.unsplash.com/premium_photo-1680796470407-ce6dc8d25f30?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8QWxsaWdhdG9yJTIwWmlwLUFyb3VuZCUyMFdhbGxldHxlbnwwfHwwfHx8MA%3D%3D",
+    "description": "A statement piece crafted from genuine alligator leather. Features a secure zip-around closure and ample organization.",
+    "tags": [
+      "wallet",
+      "alligator",
+      "leather",
+      "zip"
+    ],
+    "discount": 0
+  },
+  {
+    "id": "p35",
+    "name": "Minimalist Cardholder",
+    "price": 15000,
+    "rating": 4.7,
+    "category": "Wallets",
+    "image": "https://images.unsplash.com/photo-1689757292281-0992982967a6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8TWluaW1hbGlzdCUyMENhcmRob2xkZXJ8ZW58MHx8MHx8fDA%3D",
+    "description": "An ultra-slim cardholder in textured saffiano leather. Perfect for carrying just the essentials in your front pocket.",
+    "tags": [
+      "wallet",
+      "cardholder",
+      "minimalist",
+      "saffiano"
+    ],
+    "discount": 5
+  },
+  {
+    "id": "p36",
+    "name": "Woven Leather Long Wallet",
+    "price": 42000,
+    "rating": 4.8,
+    "category": "Wallets",
+    "image": "https://images.unsplash.com/photo-1755719402191-9539a9242526?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8V292ZW4lMjBMZWF0aGVyJTIwTG9uZyUyMFdhbGxldHxlbnwwfHwwfHx8MA%3D%3D",
+    "description": "Showcasing artisanal craftsmanship with its intricate woven leather design. Includes multiple gusseted compartments.",
+    "tags": [
+      "wallet",
+      "woven",
+      "leather",
+      "long"
+    ],
+    "discount": 0
+  },
+  {
+    "id": "p37",
+    "name": "Monogram Canvas Billfold",
+    "price": 35000,
+    "rating": 4.9,
+    "category": "Wallets",
+    "image": "https://plus.unsplash.com/premium_photo-1679943242994-4102adb09b7e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fE1vbm9ncmFtJTIwQ2FudmFzJTIwQmlsbGZvbGR8ZW58MHx8MHx8fDA%3D",
+    "description": "Iconic monogrammed coated canvas with a soft leather interior. Highly durable and instantly recognizable.",
+    "tags": [
+      "wallet",
+      "monogram",
+      "canvas",
+      "billfold"
+    ],
+    "discount": 0
+  },
+  {
+    "id": "p38",
+    "name": "Epsom Leather Money Clip Wallet",
+    "price": 28000,
+    "rating": 4.6,
+    "category": "Wallets",
+    "image": "https://images.unsplash.com/photo-1512414947060-048d53abb081?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fExlYXRoZXIlMjBNb25leSUyMENsaXAlMjBXYWxsZXR8ZW58MHx8MHx8fDA%3D",
+    "description": "A modern hybrid featuring a strong magnetic money clip and several exterior card slots, crafted in scratch-resistant Epsom leather.",
+    "tags": [
+      "wallet",
+      "money clip",
+      "epsom",
+      "leather"
+    ],
+    "discount": 10
+  },
+  {
+    "id": "p39",
+    "name": "Full-Grain Leather Tote Bag",
+    "price": 85000,
+    "rating": 4.9,
+    "category": "Handbags",
+    "image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?q=80&w=800&auto=format&fit=crop",
+    "description": "A spacious everyday carryall in Italian full-grain pebbled leather. Features an unlined interior and a detachable zippered pouch.",
+    "tags": [
+      "handbag",
+      "tote",
+      "leather",
+      "carryall"
+    ],
+    "discount": 5
+  },
+  {
+    "id": "p40",
+    "name": "Saddle Crossbody Bag",
+    "price": 95000,
+    "rating": 4.8,
+    "category": "Handbags",
+    "image": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?q=80&w=800&auto=format&fit=crop",
+    "description": "Architectural saddle-shaped bag in smooth boxcalf leather, featuring custom brass clasp closures and an adjustable strap.",
+    "tags": [
+      "handbag",
+      "crossbody",
+      "saddle",
+      "leather"
+    ],
+    "discount": 0
+  },
+  {
+    "id": "p41",
+    "name": "Soft Suede Weekender Bag",
+    "price": 135000,
+    "rating": 4.9,
+    "category": "Handbags",
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?q=80&w=800&auto=format&fit=crop",
+    "description": "Generously sized travel duffel in ultra-soft split suede leather. Includes reinforced base studs and a leather shoulder pad.",
+    "tags": [
+      "handbag",
+      "weekender",
+      "suede",
+      "travel"
+    ],
+    "discount": 10
+  },
+  {
+    "id": "p42",
+    "name": "Python Top Handle Bag",
+    "price": 185000,
+    "rating": 5.0,
+    "category": "Handbags",
+    "image": "https://plus.unsplash.com/premium_photo-1680390327010-09e627ebd475?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8UHl0aG9uJTIwVG9wJTIwSGFuZGxlJTIwQmFnfGVufDB8fDB8fHww",
+    "description": "An exquisite structured top handle bag crafted from authentic python skin. A true collector's piece with gold-plated hardware.",
+    "tags": [
+      "handbag",
+      "python",
+      "top handle",
+      "exotic"
+    ],
+    "discount": 0
+  },
+  {
+    "id": "p43",
+    "name": "Quilted Lambskin Shoulder Bag",
+    "price": 145000,
+    "rating": 4.9,
+    "category": "Handbags",
+    "image": "https://images.unsplash.com/photo-1604176424472-17cd740f74e9?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Iconic diamond-quilted lambskin shoulder bag featuring a woven chain strap and a signature turn-lock closure.",
+    "tags": [
+      "handbag",
+      "quilted",
+      "lambskin",
+      "shoulder bag"
+    ],
+    "discount": 0
+  },
+  {
+    "id": "p44",
+    "name": "Micro Beaded Evening Clutch",
+    "price": 65000,
+    "rating": 4.7,
+    "category": "Handbags",
+    "image": "https://images.unsplash.com/photo-1591561954557-26941169b49e?q=80&w=800&auto=format&fit=crop",
+    "description": "Dazzling evening clutch entirely hand-embroidered with glass micro-beads and crystals. Perfect for galas and special events.",
+    "tags": [
+      "handbag",
+      "clutch",
+      "evening",
+      "beaded"
+    ],
+    "discount": 0
+  },
+  {
+    "id": "p45",
+    "name": "Bamboo Handle Woven Tote",
+    "price": 75000,
+    "rating": 4.6,
+    "category": "Handbags",
+    "image": "https://images.unsplash.com/photo-1605733513597-a8f8341084e6?q=80&w=800&auto=format&fit=crop",
+    "description": "A chic resort-ready tote combining tightly woven natural raffia with distinctive curved bamboo top handles.",
+    "tags": [
+      "handbag",
+      "tote",
+      "woven",
+      "bamboo"
+    ],
+    "discount": 15
+  },
+  {
+    "id": "p46",
+    "name": "Saffiano Leather Briefcase",
+    "price": 115000,
+    "rating": 4.8,
+    "category": "Handbags",
+    "image": "https://images.unsplash.com/photo-1603219527847-24c87f552a77?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8TGVhdGhlciUyMEJyaWVmY2FzZXxlbnwwfHwwfHx8MA%3D%3D",
+    "description": "The ultimate executive accessory. Slim, structured briefcase in durable saffiano leather with a dedicated laptop compartment.",
+    "tags": [
+      "handbag",
+      "briefcase",
+      "saffiano",
+      "business"
+    ],
+    "discount": 0
   }
 ]
