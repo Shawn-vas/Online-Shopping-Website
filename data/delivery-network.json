@@ -1,0 +1,58 @@
+{
+  "nodes": [
+    { "id": "Mumbai", "type": "warehouse", "tier": 0 },
+    { "id": "Kolkata", "type": "warehouse", "tier": 0 },
+    { "id": "Chennai", "type": "warehouse", "tier": 0 },
+    
+    { "id": "Delhi", "type": "hub", "tier": 1 },
+    { "id": "Bangalore", "type": "hub", "tier": 1 },
+    { "id": "Hyderabad", "type": "hub", "tier": 1 },
+    { "id": "Pune", "type": "hub", "tier": 1 },
+    { "id": "Ahmedabad", "type": "hub", "tier": 1 },
+    
+    { "id": "Mangalore", "type": "destination", "tier": 2 },
+    { "id": "Jaipur", "type": "destination", "tier": 2 },
+    { "id": "Surat", "type": "destination", "tier": 2 },
+    { "id": "Lucknow", "type": "destination", "tier": 2 },
+    { "id": "Kochi", "type": "destination", "tier": 2 },
+    { "id": "Bhubaneswar", "type": "destination", "tier": 2 },
+    { "id": "Guwahati", "type": "destination", "tier": 2 },
+    { "id": "Indore", "type": "destination", "tier": 2 },
+    { "id": "Chandigarh", "type": "destination", "tier": 2 },
+    { "id": "Coimbatore", "type": "destination", "tier": 2 }
+  ],
+  "edges": [
+    { "source": "Mumbai", "target": "Pune", "distance": 150, "cost": 500, "time": 3 },
+    { "source": "Mumbai", "target": "Ahmedabad", "distance": 530, "cost": 1200, "time": 9 },
+    { "source": "Mumbai", "target": "Delhi", "distance": 1400, "cost": 3000, "time": 24 },
+    { "source": "Mumbai", "target": "Bangalore", "distance": 980, "cost": 2500, "time": 18 },
+    { "source": "Mumbai", "target": "Hyderabad", "distance": 710, "cost": 1800, "time": 12 },
+    
+    { "source": "Chennai", "target": "Bangalore", "distance": 350, "cost": 900, "time": 6 },
+    { "source": "Chennai", "target": "Hyderabad", "distance": 630, "cost": 1500, "time": 11 },
+    { "source": "Chennai", "target": "Kochi", "distance": 690, "cost": 1700, "time": 12 },
+    { "source": "Chennai", "target": "Coimbatore", "distance": 510, "cost": 1300, "time": 9 },
+    
+    { "source": "Kolkata", "target": "Delhi", "distance": 1500, "cost": 3200, "time": 26 },
+    { "source": "Kolkata", "target": "Hyderabad", "distance": 1500, "cost": 3100, "time": 26 },
+    { "source": "Kolkata", "target": "Bhubaneswar", "distance": 440, "cost": 1100, "time": 8 },
+    { "source": "Kolkata", "target": "Guwahati", "distance": 980, "cost": 2600, "time": 18 },
+    
+    { "source": "Delhi", "target": "Jaipur", "distance": 280, "cost": 700, "time": 5 },
+    { "source": "Delhi", "target": "Lucknow", "distance": 550, "cost": 1300, "time": 10 },
+    { "source": "Delhi", "target": "Chandigarh", "distance": 240, "cost": 600, "time": 4 },
+    
+    { "source": "Pune", "target": "Indore", "distance": 600, "cost": 1400, "time": 11 },
+    
+    { "source": "Ahmedabad", "target": "Surat", "distance": 260, "cost": 650, "time": 5 },
+    { "source": "Ahmedabad", "target": "Jaipur", "distance": 680, "cost": 1600, "time": 12 },
+    
+    { "source": "Bangalore", "target": "Mangalore", "distance": 350, "cost": 900, "time": 7 },
+    { "source": "Bangalore", "target": "Kochi", "distance": 550, "cost": 1400, "time": 10 },
+    { "source": "Bangalore", "target": "Coimbatore", "distance": 360, "cost": 950, "time": 7 },
+    
+    { "source": "Hyderabad", "target": "Pune", "distance": 560, "cost": 1350, "time": 10 },
+    { "source": "Hyderabad", "target": "Bhubaneswar", "distance": 1040, "cost": 2400, "time": 18 },
+    { "source": "Hyderabad", "target": "Indore", "distance": 950, "cost": 2200, "time": 16 }
+  ]
+}

@@ -4,10 +4,12 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { useCart } from '@/context/CartContext';
-import { ShoppingBag, ArrowLeft, ArrowRight, User, MapPin, CreditCard, Wallet, Banknote, Check, Landmark } from 'lucide-react';
+import { ShoppingBag, ArrowLeft, ArrowRight, User, MapPin, CreditCard, Wallet, Banknote, Check, Landmark, Truck, Map as MapIcon, ChevronRight } from 'lucide-react';
 import styles from './page.module.css';
+import networkData from '@/data/delivery-network.json';
+import { findOptimalDeliveryPath } from '@/lib/algorithms/graph';
 
-const STEPS = ['Details', 'Address', 'Payment'];
+const STEPS = ['Details', 'Address', 'Delivery Route', 'Payment'];
 
 export default function Checkout() {
   const router = useRouter();
@@ -76,6 +78,10 @@ export default function Checkout() {
     }
 
     if (step === 2) {
+      // Delivery route step requires no input validation
+    }
+
+    if (step === 3) {
       if (!formData.paymentMethod) newErrors.paymentMethod = 'Select a payment method';
       if (formData.paymentMethod === 'card') {
         if (!formData.cardNumber.trim()) newErrors.cardNumber = 'Card number is required';
@@ -265,15 +271,18 @@ export default function Checkout() {
               </div>
               <div className={styles.formGroup}>
                 <label className={styles.formLabel} htmlFor="city">City</label>
-                <input
+                <select
                   id="city"
                   name="city"
-                  type="text"
-                  placeholder="Enter your city"
                   value={formData.city}
                   onChange={handleChange}
-                  className={`${styles.formInput} ${errors.city ? styles.inputError : ''}`}
-                />
+                  className={`${styles.formInput} ${styles.formSelect} ${errors.city ? styles.inputError : ''}`}
+                >
+                  <option value="">Select a city</option>
+                  {networkData.nodes.map(node => (
+                    <option key={node.id} value={node.id}>{node.id}</option>
+                  ))}
+                </select>
                 {errors.city && <span className={styles.errorText}>{errors.city}</span>}
               </div>
               <div className={styles.formGroup}>
@@ -333,7 +342,70 @@ export default function Checkout() {
           </div>
         );
 
-      case 2:
+      case 2: {
+        const routeData = findOptimalDeliveryPath(networkData, formData.city);
+        
+        return (
+          <div className={styles.formSection} key="step-delivery">
+            <div className={styles.formSectionTitle}>
+              <MapIcon size={22} />
+              <h2>Delivery Route Optimization</h2>
+            </div>
+            
+            <p className={styles.routeDesc}>
+              Using <strong>Dijkstra's Algorithm</strong>, our system has determined the most optimal delivery path from our luxury warehouses to <strong>{formData.city}</strong>, minimizing both transit time and logistical cost.
+            </p>
+            
+            {routeData ? (
+              <div className={styles.routeVisualizer}>
+                <div className={styles.routeStats}>
+                  <div className={styles.statBox}>
+                    <span className={styles.statLabel}>Total Distance</span>
+                    <span className={styles.statValue}>{routeData.totalDistance} km</span>
+                  </div>
+                  <div className={styles.statBox}>
+                    <span className={styles.statLabel}>Logistics Cost</span>
+                    <span className={styles.statValue}>₹{routeData.totalCost.toLocaleString('en-IN')}</span>
+                  </div>
+                  <div className={styles.statBox}>
+                    <span className={styles.statLabel}>Est. Delivery</span>
+                    <span className={styles.statValue}>{Math.ceil(routeData.totalTime / 24)} {Math.ceil(routeData.totalTime / 24) === 1 ? 'Day' : 'Days'}</span>
+                  </div>
+                </div>
+                
+                <div className={styles.pathMap}>
+                  {routeData.path.map((node, index) => (
+                    <React.Fragment key={node}>
+                      <div className={styles.pathNode}>
+                        <div className={`${styles.nodeCircle} ${index === 0 ? styles.nodeWarehouse : index === routeData.path.length - 1 ? styles.nodeDestination : styles.nodeTransit}`}>
+                          {index === 0 ? <Truck size={14} /> : index === routeData.path.length - 1 ? <MapPin size={14} /> : index + 1}
+                        </div>
+                        <span className={styles.nodeName}>{node}</span>
+                        <span className={styles.nodeType}>
+                          {index === 0 ? 'Warehouse' : index === routeData.path.length - 1 ? 'Destination' : 'Transit Hub'}
+                        </span>
+                      </div>
+                      
+                      {index < routeData.path.length - 1 && (
+                        <div className={styles.pathEdge}>
+                          <div className={styles.edgeLine} />
+                          <ChevronRight size={16} className={styles.edgeIcon} />
+                        </div>
+                      )}
+                    </React.Fragment>
+                  ))}
+                </div>
+              </div>
+            ) : (
+              <div className={styles.routeError}>
+                <p>Sorry, we could not calculate a delivery route to your selected city. Please choose a different city.</p>
+              </div>
+            )}
+          </div>
+        );
+      }
+
+      case 3:
         return (
           <div className={styles.formSection} key="step-payment">
             <div className={styles.formSectionTitle}>
